@@ -19,4 +19,37 @@ Here’s how I plan to use n8n in DevOps automation:
 
 📤 Backups & Reports: Automate daily/weekly cloud storage backups or generate reports.
 
+🧰 Step-by-Step: Install n8n via npm
+
+
+✅ 1. Install Node.js and npm
+Go to the official Node.js website and download the LTS version (recommended for most users).
+
+This will install both node and npm (Node.js package manager).
+
+After installation, verify using:
+
+node -v
+npm -v
+
+✅ 2. Install n8n Globally
+Run the following command to install n8n globally:
+
+npm install -g n8n
+
+✅ 3. Run n8n
+After installation, simply run:
+n8n
+Default URL: http://localhost:5678
+
+📝 Notes:
+Your workflows will be stored locally in your system.
+
+When you restart your machine or stop n8n, you’ll need to rerun n8n to use it again.
+
+If needed, you can run it in the background using:
+
+nohup n8n &
+
+
 
